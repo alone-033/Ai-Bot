@@ -21,7 +21,8 @@ TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 OPENROUTER_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # બેસ્ટ ફ્રી AI મોડેલ
-MODEL = "meta-llama/llama-3.3-70b-instruct:free"
+MODEL = "deepseek/deepseek-r1:free"
+
 
 SYSTEM_PROMPT = """
 You are AN AI BOT, a capable and friendly AI assistant.
